@@ -3,7 +3,7 @@ import { Fragment } from "react";
 function Footer() {
   return (
     <Fragment>
-      <div className="flex justify-center items-center py-10 md:sticky">
+      <div className="hidden justify-center items-center py-10 md:flex">
         <span className="flex items-center gap-2">
           <span>
             &copy; CopyRight 2022{" "}
